@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  color:#191923;
+  font-size: 25px;
+  font-family: "Montserrat Black";
+  background:#F7F3E3;
+}
+
+h1{
+  font-family: "Abril Fatface";
+  color:#04471C;
+  font-weight:lighter;
+  font-size: 50px;
+}
+
+#quote1{
+	font-family:"Montserrat Black Italic";
+	font-size:20px;
+	color:#F7F3E3; 
+}
+
+h2 {
+  font-family: "Abril Fatface";
+  color:#04471C;
+  font-weight: lighter;
+  font-size: 30px;
+}
+a {
+  font-family:"Abril Fatface";
+  color:#04471C;
+}
+a:hover {
+  text-decoration: none;
+  color:#04471C;
+}
+
+#banner{
+  text-align: center;
+  background-image: url(../img/background%202.jpg);
+  background-size: cover;
+  padding: 150px;
+  color:#04471C;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner{
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+
+
+#restaurant{
+	font-family:"Abril Fatface";
+	color:#04471C;
+	text-align:center;
+	background-color:#FFF;
+	padding:40px;
+}
+
+.typeform-share button {
+	text-align:center;
+
+}
+
+#year{
+	font-family:"Abril Fatface";
+	color:#000;
+	font-size:20px;
+	background-color:#FFF;
+	width:
+}
+
+h4{
+	font-family:"Abril Fatface";
+	color:#04471C;
+	text-align:center;
+	font-size:30px;
+}
+
+.blanc{
+	height:50px;
+	width:100%;
+}
+
+ol,ul{
+	list-style:none;
+	color:#04471C;
+}
+
+.container{
+	padding:60px;
+}
+
+#Potager{
+	background-color:#FFF;
+	background-image:url(../img/Le%20Potager%205.jpg);
+	background-size:cover;
+	color:white;
+	font-family:"Montserrat ExtraBold";
+	text-align:center;
+	padding:150px;
+	opacity:0.8;
+	
+}
+
+h5 {
+	font-family:"Abril Fatface";
+	font-size:50px;
+	color:#04471C;
+	text-shadow: 2px 2px 6px black
+}
+
+.calendar {
+  margin: 20px auto;
+  width: auto;
+  float:left;
+}
+.calendar .cal {
+  margin: 0 auto;
+}
+
+.cal {
+  display: block;
+  width: 230px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.cal a {
+  text-decoration: none;
+}
+.cal caption {
+  display: block;
+  line-height: 32px;
+  font-weight: bold;
+  color: #e2e2e2;
+  text-align: center;
+  font-family:"Abril Fatface";
+  font-size:20px;
+  text-shadow: 0 -1px black;
+  background: #333;
+  background: #04471C;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #04471C;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.04);
+}
+.cal caption a {
+  display: block;
+  line-height: 32px;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #e2e2e2;
+}
+.cal caption a:hover {
+  color: white;
+}
+.cal caption .prev {
+  float: left;
+}
+.cal caption .next {
+  float: right;
+}
+.cal th, .cal td {
+  width: 30px;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+}
+.cal th:first-child, .cal td:first-child {
+  border-left: 0;
+}
+.cal th {
+  line-height: 20px;
+  font-size: 8px;
+  color: #696969;
+  text-transform: uppercase;
+  background: #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+}
+.cal td {
+  font-size: 11px;
+  font-weight: bold;
+  border-top: 1px solid #c2c2c2;
+  border-left: 1px solid #c2c2c2;
+}
+.cal td a {
+  clear: both;
+  display: block;
+  position: relative;
+  width: 30px;
+  line-height: 28px;
+  color: #666;
+  background-image: -webkit-linear-gradient(top, #eaeaea, #e5e5e5 60%, #d9d9d9);
+  background-image: -moz-linear-gradient(top, #eaeaea, #e5e5e5 60%, #d9d9d9);
+  background-image: -o-linear-gradient(top, #eaeaea, #e5e5e5 60%, #d9d9d9);
+  background-image: linear-gradient(to bottom, #eaeaea, #e5e5e5 60%, #d9d9d9);
+  -webkit-box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+.cal td a:hover, .cal td.off a {
+  background: #f3f3f3;
+}
+.cal td.off a {
+  color: #b3b3b3;
+}
+.cal td.active a, .cal td a:active {
+  margin: -1px;
+  color: #f3f3f3;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background: #6dafbf;
+  border: 1px solid #598b94;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.cal td.active:first-child a, .cal td:first-child a:active {
+  border-left: 0;
+  margin-left: 0;
+}
+.cal td.active:last-child a, .cal td:last-child a:active {
+  border-right: 0;
+  margin-right: 0;
+}
+.cal tr:last-child td.active a, .cal tr:last-child td a:active {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Gardenbox{
+  background-color: white;
+  font-size: 20px;
+  padding:60px;
+  font-family:"Montserrat Black";
+}
+
+
+h6 {
+	font-family:"Abril Fatface";
+	font-size:50px;
+	color:#04471C;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+
+.typeform{
+	display:flex;
+	justify-content:space-around;
+	width:100vw;
+	padding:50px;
+}
+
+.footer{
+	font-family:"Montserrat Black";
+	font-size:20px;
+	color:#000;
+}
+
+h7 {
+	font-family:"Abril Fatface";
+	color:#04471C;
+	font-size:24px;
+}
+
+
+
